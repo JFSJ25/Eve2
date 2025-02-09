@@ -70,8 +70,6 @@ body {
 .galeria > img:nth-child(3) { animation-delay: calc(-0.4 * var(--d)); --r: -19deg; }
 .galeria > img:nth-child(4) { animation-delay: calc(-0.6 * var(--d)); --r: 6deg; }
 .galeria > img:nth-child(5) { animation-delay: calc(-0.8 * var(--d)); --r: -8deg; }
-.galeria > img:nth-child(6) { animation-delay: calc(-1 * var(--d)); --r: 12deg; }
-.galeria > img:nth-child(7) { animation-delay: calc(-1.2 * var(--d)); --r: -4deg; }
 
 @keyframes slide {
     10% { transform: translateX(120%) rotate(var(--r)); }
